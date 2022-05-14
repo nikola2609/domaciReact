@@ -2,13 +2,16 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Prijava from "./components/Prijava";
-//import Provera from "./components/Provera";
+import Provera from "./components/Provera";
+import Naslovna from './components/Naslovna';
 function App() {
   return (
     <div className="App">
   <Router>
     <Routes>
-      <Route exact path="/" element={<Prijava />}/>
+    <Route exact path="/" element={<Naslovna />}/>
+      <Route  path="/prijava" element={<Prijava />}/>
+      <Route path="/provera" element={<Provera />}/>
  
     </Routes>
   </Router>  
@@ -16,5 +19,5 @@ function App() {
   </div>
   );
 }
-//  <Route path="/provera" element={<Provera />}/>
+
 export default App;
