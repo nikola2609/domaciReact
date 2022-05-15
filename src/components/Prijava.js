@@ -12,6 +12,7 @@ function Prijava(){
         <div>
             <FormaPrijava naslov='Zakažite Vaš pregled!' funkcija={PrijaviSe}/>
         </div>
+        
     );
 }
 export default Prijava;
