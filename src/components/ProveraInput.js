@@ -20,6 +20,7 @@ function ProveraInput(props){
         }
         else{
             alert('Status: ' + 'knjižica nije overena! ');
+            
         }
     }
 
