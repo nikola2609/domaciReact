@@ -24,7 +24,6 @@ function FormaPrijava(props){
     function handleLBO(e){
         setLBO(e.target.value);
        
-
     }
 
     return (
