@@ -15,6 +15,7 @@ import { MdEmail } from "react-icons/md";
             backgroundRepeat: 'no-repeat',
             AnimationEffect: 'pop 0.4s',
             textDecoration: 'underline',
+            
 
         };
     
