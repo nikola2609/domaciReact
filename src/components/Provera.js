@@ -12,6 +12,7 @@ function Provera(){
          {ime: 'Milos', prezime: 'Saric', LBO: 12312344, status:'Knjižica je overena!'},
          {ime: 'Nina', prezime: 'Stojkovic', LBO: 12346638 ,status:'Knjižica je overena!'},
          {ime: 'Marija', prezime: 'Maricic', LBO: 12346899 ,status:'Knjižica je overena!'},
+         {ime: 'Marta', prezime: 'Martic', LBO: 12346880 ,status:'Knjižica je overena!'},
      ]
 
     return(
